@@ -1,0 +1,30 @@
+* {
+    background-color: aqua;
+}
+
+// $color: red;
+// $color1: green;
+// $color2: yellow;
+
+// h3 {
+//     @if $color ==red{
+//         background-color: blue;
+//         font-size: xx-large;
+//     }
+// }
+
+// inputvar {
+//     @if $color ==red{
+//         background-color: blue;
+//         font-size: xx-large;
+//     }
+// }
+$item: 0;
+@for $in from 1 through 5 {
+    .item-#{$in} {
+        background-image: url(img/img-#{$in}.jpg); ;
+        width: 10rem;
+        height: 10rem;
+        
+    }
+}
