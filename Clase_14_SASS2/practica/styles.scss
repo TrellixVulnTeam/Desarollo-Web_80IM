@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Colors
+$colors: (
+    red:    red,
+    green: green,
+    blue: blue,
+    white: white,);
+
+// Linea Movediza
+.movediza {
+    width: 200px;
+    height: 200px;
+    background-color: map-get($colors,red);
+    text-align: center;
+}
+
+      .movediza {
+        height: 100px;
+        width: 100px;
+        
+        .is-active & {
+          background: green;
+        }
+        
+        :hover > & {
+          cursor: wait;
+          background: blue;
+          margin-top: random(10);
+          margin-left: random(10);
+          margin-right: random(10);
+            margin-bottom: random(10);
+            .movediza {
+                height: 50px;
+                width: 50px;
+            }
+
+         
+        }
+      }
+
+    //   Ciclo for
+
+    @for $i from 1 through 100 {
+        .movediza {
+            height: $i * 10px;
+            width: $i * 10px;
+        }
+    }
