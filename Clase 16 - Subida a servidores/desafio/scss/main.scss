@@ -1,0 +1,15 @@
+@import 'customs.scss';
+/* Main */
+
+.img-main img{
+    width: auto;
+    height: 50rem;
+}
+section h3{
+    margin-top: map-get($standard,remgenerica);;
+    font-family: $font;
+}
+
+
+
+

@@ -1,0 +1,11 @@
+@import 'customs.scss';
+/* Footer */
+
+.redes img{
+    width: auto;
+    height: map-get($standard, height-generica);
+}
+
+.form-group input:default{
+    box-shadow: blue;
+}
