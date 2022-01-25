@@ -1,0 +1,6 @@
+Utilice el archivo customs.cscc para generar lo solicitado
+Cree un MAP con algunas medidas y las aplique en los archivos footer.scss y header.scss
+Cree un Mixin y lo utilice en el Header.scss
+Cree un Extend y lo utilice como %reset en los archivos estilos.scss y customs.scss
+Cree el atributo meta keybord con palabras claves relacionas al contenido web
+Cree el atributo meta description con una breve descripcion del sitio web

@@ -1,0 +1,26 @@
+/* Header */
+@import 'customs.scss';
+.nav a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+.header img{
+    width: auto;
+    height: map-get($standard , height-header);
+}
+
+.hero{
+   @include headerhero;
+
+}
+
+.hero h3{
+    font-family: $font;
+    font-size: map-get($standard , height-generica );
+    color: rgb(240, 230, 230);
+    text-align: center;
+    margin-top: 10rem;
+}
